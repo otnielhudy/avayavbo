@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avaya.mobilevideo"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MobileVideoApplication"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:allowBackup="true">
+        <receiver android:name="com.appsflyer.SingleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name=".ExampleLoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".ExampleAVDialActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".ExampleAVCallActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".ExampleAODialActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".ClickToCallDialActivity"
+                  android:configChanges="orientation|screenSize"
+                  android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".utils.SettingsActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".impl.ManualSessionActivity"></activity>
+        <activity
+            android:name=".panicar.MainActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".panicar.ARActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".ClicktoCallActivity"
+                  android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".ClickToCallLoginActivity"
+                  android:windowSoftInputMode="stateHidden"></activity>
+
+
+    </application>
+
+</manifest>

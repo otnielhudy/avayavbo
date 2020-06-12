@@ -1,0 +1,4 @@
+# Referenced at C:\Users\Otniel\Documents\avayavbo\app\build\intermediates\merged_manifests\debugAndroidTest\processDebugAndroidTestManifest\merged\AndroidManifest.xml:9
+-keep class com.android.test.runner.MultiDexTestRunner { <init>(...); }
+# Referenced at C:\Users\Otniel\Documents\avayavbo\app\build\intermediates\merged_manifests\debugAndroidTest\processDebugAndroidTestManifest\merged\AndroidManifest.xml:31
+-keep class com.avaya.mobilevideo.MobileVideoApplication { <init>(...); }

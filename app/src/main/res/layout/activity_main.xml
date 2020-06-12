@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.avaya.mobilevideo.panicar.MainActivity"
+                >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_margin="8dp"
+            android:onClick="startARPortrait"
+            android:text="Launch AR (portrait-only)" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_margin="8dp"
+            android:onClick="startARLandscape"
+            android:text="Launch AR (landscape-only)" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Launch AR (auto-orienting)"
+            android:id="@+id/button7"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:onClick="startARAutoOrienting"
+            android:layout_alignParentRight="false"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

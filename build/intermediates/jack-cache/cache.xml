@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="B:\projectnative\samplePakAndre\app\libs\android-logging-log4j-1.0.3.jar"
+        revision="25.0.2"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\android-logging-log4j-1.0.3-16b8d67bb44cca2ac9c196637e33fcf6929abc61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\8adb14757257830faf923cedaf3fa00dc90d7e0e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1921e1c69c9eb88ffc7d3a8a1938995f8098c4d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\ecd62525e0938be352b166640b1b49f7c0d3ba88\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cb50bab0c67c8810c56704e4644a8bab4bc5d847.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\c7c5e952d58036fc8827af0cfc18c2098779966e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b0cb672b54266f94d00f63d124612cc1d090c013.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\327df474bf1754517e29980c3a1d069de8314b23\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-d3a08d2605093320952c31090a85cdd7d3e7a619.jar" />
+    </item>
+    <item
+        jar="B:\projectnative\samplePakAndre\app\libs\avaya-client-sdk-android-3.4.1.jar"
+        revision="25.0.2"
+        sha1="73b33dd6f0c8a8e393894911063f8039d8200e0e">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\avaya-client-sdk-android-3.4.1-8e4715cee928e952f23b7ba44ced3fff55fe54b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        revision="25.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\common-1.0.0-cdfb40d7785cccdf5852d73321391da7b1bf209d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\cd687d5480c954ae17275cfbc999ba4b14e2296d\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-db6728eb72d3165f405e1fc556aa1664c7b7170c.jar" />
+    </item>
+    <item
+        jar="B:\projectnative\samplePakAndre\app\libs\log4j-1.2.17.jar"
+        revision="25.0.2"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\log4j-1.2.17-dc1dcd25f966e4673744b9cac361b66ba527a16c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\d89a554013151bc7526cf65d072b1788e16d5432\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-254fc6a65a51aa07fb080f6db36c6785e22d7371.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        revision="25.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-26.1.0-3146c7bb8788f0b3d83138da67c8f866c3bdb32b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.android\build-cache\603fa6640aa34c23d120917e51375a8724c17bae\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-62f083692d1fb94bf500c07c07ae17558506ac74.jar" />
+    </item>
+    <item
+        jar="B:\projectnative\samplePakAndre\app\libs\konywidgets.jar"
+        revision="25.0.2"
+        sha1="f086d1113ee5b8dde701e2c2aa205a66da7bc6ec">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\konywidgets-e66645500abf2ad4fcfcd5cca598a6cc9af6c881.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deni Eko Santoso\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        revision="25.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="B:\projectnative\samplePakAndre\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\common-1.0.0-16cc79c09ed0589f99c6fcb333397af608ac5bf9.jar" />
+    </item>
+
+</items>

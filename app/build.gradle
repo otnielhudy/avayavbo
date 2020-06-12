@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '28.0.2'
+
+    defaultConfig {
+ //       applicationId "com.avaya.mobilevideo"
+//        minSdkVersion 14
+        minSdkVersion 16
+        targetSdkVersion 27
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'arm64-v8a','armeabi-v7a','x86', 'x86_64'
+
+            universalApk true
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation files('libs/avaya-client-sdk-android-3.4.1.2.jar')
+    implementation files('libs/android-logging-log4j-1.0.3.jar')
+    implementation files('libs/log4j-1.2.17.jar')
+    implementation files('libs/konywidgets.jar')
+    implementation files('libs/PanicSensorKit.jar')
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+
+    //denny 20190521 - Appsflyer
+//    implementation 'com.appsflyer:af-android-sdk:4.10.0'
+//    implementation 'com.android.installreferrer:installreferrer:1.0'
+//    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+    //end
+
+    //denny 20190626 - PANICAR
+    implementation files('libs/PanicARKit.jar')
+    implementation files('libs/PanicSensorKit.jar')
+    //end
+}
